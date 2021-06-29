@@ -36,71 +36,13 @@
   <string name="search">搜索</string>
   <string name="sort_by_app_name">按应用名称排序</string>
   <string name="sort_by_package">按包名排序</string>
-  <string-array name="pref_vpn_connection_name">
-    <item>Exclude specified applications</item>
-    <item>Only allowed applications</item>
-  </string-array>
-  <string-array name="pref_vpn_connection_value" translatable="false">
-    <item>DISALLOW</item>
-    <item>ALLOW</item>
-  </string-array>
-
-  <string-array name="pref_dns_provider_name" translatable="false">
-    <item>Google</item>
-    <item>Google (DoH)</item>
-    <item>Cloudflare</item>
-    <item>Cloudflare (DoH)</item>
-    <item>AdGuard</item>
-    <item>AdGuard (DoH)</item>
-    <item>@string/specified_dns_provider</item>
-  </string-array>
-  <string-array name="pref_dns_provider_value" translatable="false">
-    <item>GOOGLE</item>
-    <item>GOOGLE_DOH</item>
-    <item>CLOUDFLARE</item>
-    <item>CLOUDFLARE_DOH</item>
-    <item>ADGUARD</item>
-    <item>ADGUARD_DOH</item>
-    <item>SPECIFIED</item>
-  </string-array>
-
-  <string-array name="pref_theme">
-    <item>Auto</item>
-    <item>Enabled</item>
-    <item>Disabled</item>
-    <item>In Battery Saver mode</item>
-  </string-array>
-  <string-array name="pref_theme_values" translatable="false">
-    <item>AUTO</item>
-    <item>DARK</item>
-    <item>LIGHT</item>
-    <item>BATTERY</item>
-  </string-array>
-
-  <string-array name="pref_sni">
-    <item>Disabled</item>
-    <item>Spoil SNI</item>
-    <item>Fake SNI</item>
-    <item>Erase SNI</item>
-  </string-array>
-  <string-array name="pref_sni_values" translatable="false">
-    <item>DISABLED</item>
-    <item>SPOIL</item>
-    <item>FAKE</item>
-    <item>ERASE</item>
-  </string-array>
 
   <string name="pref_allowed_application_list">允许的应用程序</string>
-
-  <string-array name="pref_allowed_application_name"/>
-  <string-array name="pref_allowed_application_value"/>
 
   <string name="pref_disallowed_application_list">排除的应用程序</string>
   <string name="description">针对政府审查的简单、可扩展、跨平台且有效的解决方案</string>
   <string name="stop_server_to_edit_settings">PowerTunnel 已经在运行，再次点击编辑设置，保存设置后 PowerTunnel 将重新启动</string>
 
-  <string-array name="pref_disallowed_application_name"/>
-  <string-array name="pref_disallowed_application_value"/>
   <string name="pref_override_dns">覆盖 DNS 服务器</string>
   <string name="pref_dns_provider">DNS 提供商</string>
   <string name="pref_category_dns">域名解析</string>
