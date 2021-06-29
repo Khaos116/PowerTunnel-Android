@@ -105,7 +105,8 @@ public class PackageListPreferenceFragment extends PreferenceFragment
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home: {
-                startActivity(new Intent(getActivity(), SimplePreferenceActivity.class));
+                getActivity().onBackPressed();
+                //startActivity(new Intent(getActivity(), SimplePreferenceActivity.class));
                 return true;
             }
             case R.id.menu_sort_app_name: {
