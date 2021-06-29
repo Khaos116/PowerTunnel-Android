@@ -7,7 +7,7 @@
 		<ListPreference
 			android:key="theme"
 			android:title="@string/pref_theme_title"
-			android:defaultValue="AUTO"
+			android:defaultValue="@string/auto"
 			android:entries="@array/pref_theme"
 			android:entryValues="@array/pref_theme_values"
 			android:summary="%s"/>
@@ -100,7 +100,7 @@
 		<ListPreference
 			android:key="vpn_connection_mode"
 			android:title="@string/pref_vpn_connection_mode"
-			android:defaultValue="DISALLOW"
+			android:defaultValue="@string/exclude_specified_applications"
 			android:entries="@array/pref_vpn_connection_name"
 			android:entryValues="@array/pref_vpn_connection_value"
 			android:summary="%s"/>
@@ -216,7 +216,7 @@
 		<ListPreference
 			android:key="sni_trick"
 			android:title="@string/pref_sni_trick"
-			android:defaultValue="DISABLED"
+			android:defaultValue="@string/disabled"
 			android:entries="@array/pref_sni"
 			android:entryValues="@array/pref_sni_values"
 			android:summary="%s"/>

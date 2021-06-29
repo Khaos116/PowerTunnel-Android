@@ -1,0 +1,192 @@
+<resources>
+  <string name="app_name" translatable="false">PowerTunnel</string>
+
+  <string name="ok">OK</string>
+  <string name="cancel">取消</string>
+
+  <!-- 状态信息-->
+  <string name="server_not_running">未运行</string>
+  <string name="server_running">正在运行</string>
+
+  <!-- 开始/停止按钮 -->
+  <string name="server_start">开始</string>
+  <string name="server_stop">停止</string>
+
+  <!-- 进度消息 -->
+  <string name="starting_server">开始</string>
+  <string name="stopping_server">正在停止</string>
+  <string name="status_please_wait">请稍等……</string>
+  <string name="startup_failed_vpn">无法启动VPN服务：%s</string>
+
+  <!-- 主菜单 -->
+  <string name="title_activity_settings">设置</string>
+  <string name="title_show_about">关于</string>
+
+  <!-- 设置-->
+  <string name="pref_category_connection">连接设置</string>
+  <string name="pref_category_dpi">DPI 规避设置</string>
+
+  <string name="pref_vpn_connection_mode">连接模式</string>
+  <string name="pref_header_allowed_application_list">允许的应用程序</string>
+  <string name="pref_header_disallowed_application_list">不允许的应用程序</string>
+
+  <string name="pref_clear_all">清除应用程序列表</string>
+  <string name="pref_dialog_clear_all">您确定要重置所选应用程序的列表吗？</string>
+
+  <string name="search">搜索</string>
+  <string name="sort_by_app_name">按应用名称排序</string>
+  <string name="sort_by_package">按包名排序</string>
+  <string name="exclude_specified_applications">排除指定的应用程序</string>
+  <string-array name="pref_vpn_connection_name">
+    <item>排除指定的应用程序</item>
+    <item>仅允许的应用程序</item>
+  </string-array>
+  <string-array name="pref_vpn_connection_value" translatable="false">
+    <item>禁止</item>
+    <item>允许</item>
+  </string-array>
+
+  <string-array name="pref_dns_provider_name" translatable="false">
+    <item>Google</item>
+    <item>Google (DoH)</item>
+    <item>Cloudflare</item>
+    <item>Cloudflare (DoH)</item>
+    <item>AdGuard</item>
+    <item>AdGuard (DoH)</item>
+    <item>@string/specified_dns_provider</item>
+  </string-array>
+  <string-array name="pref_dns_provider_value" translatable="false">
+    <item>GOOGLE</item>
+    <item>GOOGLE_DOH</item>
+    <item>CLOUDFLARE</item>
+    <item>CLOUDFLARE_DOH</item>
+    <item>ADGUARD</item>
+    <item>ADGUARD_DOH</item>
+    <item>指定</item>
+  </string-array>
+
+  <string name="auto">自动</string>
+  <string-array name="pref_theme">
+    <item>自动</item>
+    <item>启用</item>
+    <item>已禁用</item>
+    <item>处于省电模式</item>
+  </string-array>
+  <string-array name="pref_theme_values" translatable="false">
+    <item>自动</item>
+    <item>暗色</item>
+    <item>灯光</item>
+    <item>电池</item>
+  </string-array>
+
+  <string-array name="pref_sni">
+    <item>已禁用</item>
+    <item>破坏SNI</item>
+    <item>假SNI</item>
+    <item>擦除 SNI</item>
+  </string-array>
+  <string name="disabled" translatable="false">已禁用</string>
+  <string-array name="pref_sni_values" translatable="false">
+    <item>已禁用</item>
+    <item>破坏</item>
+    <item>假的</item>
+    <item>擦除</item>
+  </string-array>
+
+  <string name="pref_allowed_application_list">允许的应用程序</string>
+
+  <string-array name="pref_allowed_application_name"/>
+  <string-array name="pref_allowed_application_value"/>
+
+  <string name="pref_disallowed_application_list">排除的应用程序</string>
+  <string name="description">针对政府审查的简单、可扩展、跨平台且有效的解决方案</string>
+  <string name="stop_server_to_edit_settings">PowerTunnel 已经在运行，再次点击编辑设置，保存设置后 PowerTunnel 将重新启动</string>
+
+  <string-array name="pref_disallowed_application_name"/>
+  <string-array name="pref_disallowed_application_value"/>
+  <string name="pref_override_dns">覆盖 DNS 服务器</string>
+  <string name="pref_dns_provider">DNS 提供商</string>
+  <string name="pref_category_dns">域名解析</string>
+  <string name="pref_use_dns_sec">使用 DNSSec（实验性）</string>
+  <string name="pref_full_chunking">全分块模式</string>
+  <string name="pref_mix_host_case">混合主机案例</string>
+  <string name="pref_send_payload">发送额外的 21KB 负载</string>
+  <string name="startup_failed_proxy">代理服务器启动失败</string>
+  <string name="failed_to_start_powertunnel">PowerTunnel 启动失败</string>
+  <string name="pref_chunk_size">默认块大小</string>
+  <string name="clear_selection">清除选择</string>
+  <string name="about_version">版本 %1$s&lt;br></string>
+  <string name="btn_check_for_updates">检查更新</string>
+  <string name="about_powertunnel" translatable="false"><b>这些开源项目使<a href="https://github.com/krlvm/PowerTunnel-Android">Android版PowerTunnel</a> 成为可能:</b>\n\n<a href="https://github.com/krlvm/PowerTunnel/tree/libertytunnel">LibertyTunnel</a> - 基础\n<a href="https://github.com/krlvm/PowerTunnel">PowerTunnel</a> - 代理\n<a href="https://github.com/raise-isayan/TunProxy">TunProxy</a> - VPN 服务器和流量拦截器\n<a href="https://github.com/adamfisk/LittleProxy">LittleProxy</a> - 代理服务器\n<a href="https://github.com/ganskef/LittleProxy-mitm">LittleProxy-MITM</a> - LittleProxy SSL 扩展\n<a href="https://github.com/dnsjava/dnsjava">dnsjava</a> - DNS 库，DoH 实现\n<a href="https://github.com/ibauersachs/dnssecjava">dnssecjava</a> - dnsjava的DNSSec实现\n<a href="https://github.com/adamfisk/DNSSEC4J">DNSSEC4J</a> - LittleProxy 的 DNSSec 实现</string>
+  <string name="main_copyright" translatable="false"><b><a href="https://t.me/powertunnel_dpi">电报频道</a>\n<a href="https://github.com/krlvm/PowerTunnel">PC版PowerTunnel</a></b>\n\n(c) krlvm, 2019-2021</string>
+  <string name="title_activity_about">关于</string>
+  <string name="no_updates">您正在运行最新版本的 PowerTunnel</string>
+  <string name="no_updates_title">无可用更新</string>
+  <string name="update_error">检查更新时出错，请检查互联网连接</string>
+  <string name="update_error_title">错误</string>
+  <string name="update_available_title">有可用更新</string>
+  <string name="update_available">版本 %s 已准备好安装</string>
+  <string name="update_checking_title">正在检查更新...</string>
+  <string name="update_checking">安装版本：%s</string>
+  <string name="help">PowerTunnel 仅在您连接到 VPN 时工作\n\如果您需要调整可以使用 PowerTunnel 的应用程序列表，请打开设置。</string>
+  <string name="dns_fetch_error">获取DNS服务器列表失败</string>
+  <string name="error">错误</string>
+  <string name="download">下载</string>
+  <string name="specify_dns_provider">自定义 DNS 提供商</string>
+  <string name="specified_dns_provider">自定义 DNS 提供商</string>
+  <string name="pref_theme_title">深色主题</string>
+  <string name="pref_category_appearance">外观</string>
+  <string name="secdns_discounted">SecureDNS DNS 提供商自2020年4月30日起打折。您的DNS提供商已自动更改为CloudFlare DoH，以避免出现连接问题。</string>
+  <string name="notification">通知</string>
+  <string name="pref_proxy_mode">代理模式</string>
+  <string name="pref_proxy_mode_desc">不使用 VPN 运行代理</string>
+  <string name="help_proxy">PowerTunnel 在代理模式下工作。\n您必须在应用程序中手动配置代理设置。\n\n代理地址：\n%s</string>
+  <string name="notification_proxy_background">PowerTunnel 代理正在运行</string>
+  <string name="proxy_mode_warning">现在您必须手动设置应用程序代理。如果遇到问题，请切换回 VPN 模式禁用代理模式。</string>
+  <string name="notification_channel_proxy">PowerTunnel 代理</string>
+  <string name="pref_category_vpn">VPN 设置</string>
+  <string name="pref_proxy_ip">本地代理服务器IP地址</string>
+  <string name="pref_proxy_port">本地代理服务器端口</string>
+  <string name="reset_connection_settings">重置代理设置</string>
+  <string name="reset_connection_settings_summary">返回默认地址和端口</string>
+  <string name="startup_failed_proxy_message">无法启动代理服务器，尝试在设置中重置代理配置：%1$s</string>
+  <string name="pref_fix_conn_issues">修复连接问题</string>
+  <string name="pref_dns_port">DNS 端口</string>
+  <string name="pref_apply_http_https">将 HTTP 技巧应用于 HTTPS</string>
+  <string name="space_after_get">GET 后的空格</string>
+  <string name="pref_break_get">GET 前中断</string>
+  <string name="pref_dot_after_host">在主机后加一个点</string>
+  <string name="pref_mix_host_header_case">混合主机头文件</string>
+  <string name="pref_sni">破坏 SNI（实验）</string>
+  <string name="cert_installed">证书安装成功</string>
+  <string name="cert_not_installed">证书未安装，SNI 技巧不起作用</string>
+  <string name="please_install_cert">您需要安装 PowerTunnel Root CA 才能使用 SNI 技巧</string>
+  <string name="pref_chunking">启用分块</string>
+  <string name="pref_complete_mix_host_case">完整的主机案例混合</string>
+  <string name="sni_warning">禁用分块以获得更好的效果</string>
+  <string name="notification_vpn_background">PowerTunnel VPN 正在运行</string>
+  <string name="stopping_powertunnel">正在停止 PowerTunnel…</string>
+  <string name="qs_startup_failed">无法启动 PowerTunnel。如果这是您第一次使用Quick Tile，请从应用程序启动 PowerTunnel：%s</string>
+  <string name="samsung_firmware_bug">三星在 2020 年 8 月的软件更新中引入了一个错误，导致我们无法启动 VPN 服务，您可以手动解决此问题。</string>
+  <string name="read_more">阅读更多</string>
+  <string name="restarting_proxy">正在重启代理服务器...</string>
+  <string name="pref_upstream_proxy">通过上游代理连接</string>
+  <string name="pref_upstream_proxy_desc">使用上游代理连接互联网</string>
+  <string name="pref_upstream_ip">上游代理IP地址</string>
+  <string name="pref_upstream_port">上游代理端口</string>
+  <string name="pref_upstream_title">上游代理服务器</string>
+  <string name="pref_upstream_cache">缓存上游代理地址</string>
+  <string name="pref_upstream_cache_desc">不要在每次请求时解析上游代理地址，提高性能</string>
+  <string name="pref_upstream_proxy_auth">在上游代理服务器上授权</string>
+  <string name="pref_upstream_username">上游代理服务器用户名</string>
+  <string name="pref_upstream_password">上游代理服务器密码</string>
+  <string name="pref_allow_insecure_doh">允许不安全的 DoH 请求</string>
+  <string name="pref_allow_insecure_doh_desc">允许通过纯 HTTP 发出 DoH 请求</string>
+  <string name="pref_sni_trick">SNI 技巧</string>
+  <string name="pref_sni_fake_host">假 SNI 主机</string>
+  <string name="cert_extracted">证书已提取</string>
+  <string name="cert_manual_install_11">您需要在 Android 11 及更高版本上手动安装证书</string>
+  <string name="extract_certificate_q">提取证书？</string>
+  <string name="cert_you_can_install_manually">您可以手动安装证书</string>
+  <string name="cert_extract_btn">提取</string>
+</resources>
